@@ -7,10 +7,10 @@ namespace List_training
     {
         static void Main(string[] args)
         {
-            bool check = false;
             int counter = 0;
 
             Console.WriteLine("Hello user!\n");
+
             Console.WriteLine("Which country's capital do you want to know?\n");
 
             Dictionary<string, string> capitals = new Dictionary<string, string>();
@@ -50,21 +50,21 @@ namespace List_training
             switch (country)
             {
                 case "Ukraine":
-                    return "Киев";
+                    return "It is located in northern Ukraine. In 2010, Kiev was the seventh most populous city in Europe after Istanbul, Moscow, London, St. Petersburg, Berlin, and Madrid.";
                 case "Russia":
-                    return "Москва";
+                    return "Moscow is the sports center of the country. In 1980 Moscow hosted the XXII Summer Olympic Games, and in 2018 the city was one of the hosts of the FIFA World Cup.";
                 case "Belarus":
-                    return "Минск";
+                    return "Minsk was first mentioned in the chronicles almost a hundred years earlier than Moscow: the record was made in 1067.";
                 case "Poland":
-                    return "Варшава";
+                    return "Nowhere in Poland, except Warsaw, can you find the subway.";
                 case "Czech Rp":
-                    return "Прага";
+                    return "The capital of the Czech Republic is about 1150 years old. More precisely, it was founded in 880 A.D.";
                 case "Germany":
-                    return "Берлин";
+                    return "The Berlin Zoo is ranked first in the world in terms of the number of animals. It contains 1,380 different animal species and over 18,662 animals.";
                 case "France":
-                    return "Париж";
+                    return "Paris was one of the first cities in the world to install street lights.";
                 case "Norway":
-                    return "Осло";
+                    return "Mohammed is the most popular name for a boy in Oslo.";
 
                 default: return "Chech orfography";
             }
