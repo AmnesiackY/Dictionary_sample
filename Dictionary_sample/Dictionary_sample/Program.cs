@@ -42,7 +42,7 @@ namespace List_training
             }
             if (counter == 0)
             {
-                Console.WriteLine("We don't have that capital, piece of shit!");
+                Console.WriteLine("We don't have that country, piece of shit!");
             }
         }
         public static string CapitalInfo(string country)
